@@ -78,7 +78,7 @@
 				<version>3.3.0</version>
 				<executions>
 					<execution>
-						<?m2e ignore?>
+						<!-- <?m2e ignore?> -->
 						<id>add-source</id>
 						<phase>initialize</phase>
 						<goals>
@@ -88,6 +88,7 @@
 						<configuration>
 							<sources>
 								<source>src/main/xtext-gen</source>
+								<source>src/main/xtend-gen</source>
 							</sources>
 							<resources>
 								<resource>
