@@ -1,9 +1,12 @@
 target/
 
-generated/
-xtext-gen/
-xtend-gen/
 dependency-reduced-pom.xml
+com.github.phoswald.sample.mydsl/model/
+com.github.phoswald.sample.mydsl/src/main/xtext-gen/
+com.github.phoswald.sample.mydsl/src/main/xtend-gen/
+com.github.phoswald.sample.mydsl/src/test/xtext-gen/
+com.github.phoswald.sample.mydsl/src/test/xtend-gen/
+com.github.phoswald.sample.mydsl.ide/src/main/xtext-gen/
 
 .project
 .classpath
