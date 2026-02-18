@@ -1,0 +1,9 @@
+grammar com.github.phoswald.sample.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.github.com/phoswald/sample/mydsl/MyDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

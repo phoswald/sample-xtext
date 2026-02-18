@@ -1,0 +1,13 @@
+target/
+
+generated/
+xtext-gen/
+xtend-gen/
+dependency-reduced-pom.xml
+
+.project
+.classpath
+.settings/
+
+*.iml
+.idea/
