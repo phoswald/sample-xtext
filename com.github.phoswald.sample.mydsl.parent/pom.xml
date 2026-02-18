@@ -13,8 +13,8 @@
 		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 	<modules>
-		<module>com.github.phoswald.sample.mydsl</module>
-		<module>com.github.phoswald.sample.mydsl.ide</module>
+		<module>../com.github.phoswald.sample.mydsl</module>
+		<module>../com.github.phoswald.sample.mydsl.ide</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
